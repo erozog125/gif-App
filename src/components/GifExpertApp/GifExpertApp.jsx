@@ -1,11 +1,8 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState } from 'react';
 import { Card } from '../../Card/Card';
 import { InputUI } from '../InputUI/InputUI';
 
-import imgInit from '../../img/Goku.jpg';
 import axios from 'axios';
-
-// const URL1 = "https://api.giphy.com/v1/stickers/search?api_key=I4ub2ABDFChWF6nfeWp8yNiJIhRNDpsF&q=superman&data=0&limit=12";
 
 export const GifExpertApp = () => {
 
